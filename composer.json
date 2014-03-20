@@ -1,0 +1,24 @@
+{
+    "name": "hdioui/facebook",
+    "description": "",
+    "authors": [
+        {
+            "name": "Hdioui Abdeljalil",
+            "email": "hdioui.abdeljalil@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.0",
+        "illuminate/support": "4.1.*",
+        "facebook/php-sdk": "@stable"
+    },
+    "autoload": {
+        "classmap": [
+            "src/migrations"
+        ],
+        "psr-0": {
+            "Hdioui\\Facebook\\": "src/"
+        }
+    },
+    "minimum-stability": "stable"
+}
